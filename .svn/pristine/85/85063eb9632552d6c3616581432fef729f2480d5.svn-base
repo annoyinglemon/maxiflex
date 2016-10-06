@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="3.5dp"
+    card_view:cardUseCompatPadding="false"
+    card_view:contentPaddingTop="4dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:id="@+id/cvLogItem"
+    android:layout_margin="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="200"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llsavedOrDownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@color/md_green_500">
+            <TextView
+                android:id="@+id/tvsavedOrDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_uploaded"
+                android:textStyle="bold"
+                android:textSize="21sp"
+                android:textColor="@color/md_white_1000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?listPreferredItemHeightSmall"
+            android:weightSum="3"
+            android:gravity="center_vertical">
+            <TextView
+            android:id="@+id/tvFileName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+                android:layout_weight="2.3"
+            android:text="LOG_34000000125.pdf"
+            android:textStyle="bold"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="20sp"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:layout_marginStart="10dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/date_uploaded"
+                android:textSize="16sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/tvFileName"
+                android:id="@+id/textView2" />
+
+                <TextView
+                android:id="@+id/tvUploadedDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="December 01, 2016"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_toEndOf="@+id/textView2"
+                android:layout_alignParentBottom="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?listPreferredItemHeightSmall"-->
+            <!--android:padding="5dp">-->
+
+
+
+
+        <!--</RelativeLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="40"-->
+        <!--android:background="@drawable/square_rounded_corners"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="5dp"-->
+        <!--android:orientation="vertical">-->
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@color/md_white_1000"-->
+        <!--android:text="Download PDF"-->
+        <!--android:textSize="@dimen/log_item_download_textSize"/>-->
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/ic_pdf"-->
+        <!--/>-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+</android.support.v7.widget.CardView>

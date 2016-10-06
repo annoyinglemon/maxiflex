@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ph.com.medilink.maxiflexmobileapp.Activities.SecurityQuestionAcitivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbSecurity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="28dp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:paddingTop="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/notice_background"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Please answer at least two(2) of the following security questions."
+                    android:textSize="@dimen/label_textsize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="(Note: This is important for possible card replacements.)"
+                    android:textSize="@dimen/label_textsize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:paddingEnd="20dp"
+                    android:text="What was your childhood nickname?"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/label_textsize" />
+
+                <EditText
+                    android:id="@+id/etQ01"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/main_text_marginbottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_emr"
+                    android:padding="@dimen/main_textpadding"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/main_textsize" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:paddingEnd="20dp"
+                    android:text="In what city did you meet your spouse/significant other?"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/label_textsize" />
+
+                <EditText
+                    android:id="@+id/etQ02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/main_text_marginbottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_emr"
+                    android:padding="@dimen/main_textpadding"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/main_textsize" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:paddingEnd="20dp"
+                    android:text="What is the name of your favorite childhood friend?"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/label_textsize" />
+
+                <EditText
+                    android:id="@+id/etQ03"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/main_text_marginbottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_emr"
+                    android:padding="@dimen/main_textpadding"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/main_textsize" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:paddingEnd="20dp"
+                    android:text="What street did you live on in third grade?"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/label_textsize" />
+
+                <EditText
+                    android:id="@+id/etQ04"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/main_text_marginbottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_emr"
+                    android:padding="@dimen/main_textpadding"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/main_textsize" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:paddingEnd="20dp"
+                    android:text="What was your childhood phone number including area code? (eg., 000-000-0000)"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/label_textsize" />
+
+                <EditText
+                    android:id="@+id/etQ05"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/main_text_marginbottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_emr"
+                    android:padding="@dimen/main_textpadding"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/main_textsize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:paddingEnd="20dp"
+                    android:text="What is the country of your ultimate dream vacation?"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/label_textsize" />
+
+                <EditText
+                    android:id="@+id/etQ06"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/main_text_marginbottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_emr"
+                    android:padding="@dimen/main_textpadding"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/main_textsize" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:paddingEnd="20dp"
+                    android:text="What is the name of your favorite childhood teacher?"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/label_textsize" />
+
+                <EditText
+                    android:id="@+id/etQ07"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/main_text_marginbottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_emr"
+                    android:padding="@dimen/main_textpadding"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/main_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:paddingEnd="20dp"
+                    android:text="What is the street number of the house you grew up in?"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/label_textsize" />
+
+                <EditText
+                    android:id="@+id/etQ08"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/main_text_marginbottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_emr"
+                    android:padding="@dimen/main_textpadding"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/main_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:paddingEnd="20dp"
+                    android:text="What is your favorite movie?"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/label_textsize" />
+
+                <EditText
+                    android:id="@+id/etQ09"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/main_text_marginbottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_emr"
+                    android:padding="@dimen/main_textpadding"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/main_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:paddingEnd="20dp"
+                    android:text="Who is your favorite author?"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/label_textsize" />
+
+                <EditText
+                    android:id="@+id/etQ10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/main_text_marginbottom"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_emr"
+                    android:padding="@dimen/main_textpadding"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/main_textsize" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

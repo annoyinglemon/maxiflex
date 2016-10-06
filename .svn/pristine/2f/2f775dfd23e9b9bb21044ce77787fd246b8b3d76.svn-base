@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\activity_main.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-xlarge-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\activity_login.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-xlarge-land\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\activity_security_question.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-xlarge-land\\activity_security_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\item_upload_file.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-xlarge-land\\item_upload_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\activity_medical_record.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-xlarge-land\\activity_medical_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-land-v4\\fragment_ecard.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-xlarge-land\\fragment_ecard.xml"
+    }
+]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_patientProfile"
+            android:icon="@drawable/user_profile"
+            android:title="@string/menu_patient_profile" />
+        <item
+            android:id="@+id/nav_vitalSigns"
+            android:icon="@drawable/ic_vital_sign"
+            android:title="@string/menu_vital_signs" />
+        <item
+            android:id="@+id/nav_pastMedical"
+            android:icon="@drawable/ic_medical_history"
+            android:title="@string/menu_medical_history" />
+        <item
+            android:id="@+id/nav_allergy"
+            android:icon="@drawable/ic_medication"
+            android:title="@string/menu_allergy" />
+        <item
+            android:id="@+id/nav_obGyne"
+            android:icon="@drawable/ic_ob_gyn"
+            android:title="@string/menu_ob_gyn" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_social"
+            android:title="@string/menu_social" />
+        <item
+            android:id="@+id/nav_uploadFiles"
+            android:icon="@drawable/ic_upload"
+            android:title="@string/menu_upload_file" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_signout"
+            android:title="@string/menu_exit" />
+    </group>
+</menu>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_locator.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\menu\\menu_locator.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_medical_record.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\menu\\menu_medical_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_security_questions.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\menu\\menu_security_questions.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_letter_guarantee.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\menu\\menu_letter_guarantee.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_ecard.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\menu\\menu_ecard.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_medical_record_drawer.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\menu\\activity_medical_record_drawer.xml"
+    }
+]

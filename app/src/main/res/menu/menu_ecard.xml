@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/menu_refresh"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_refresh"/>
+    <item
+        android:id="@+id/action_signOut"
+        android:title="@string/action_signOut"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_signout"
+        />
+    <!--FOR TESTING PURPOSES ONLY-->
+    <!--<item-->
+        <!--android:id="@+id/layout1"-->
+        <!--android:title="Layout 1"-->
+        <!--app:showAsAction="never"/>-->
+    <!--<item-->
+        <!--android:id="@+id/layout2"-->
+        <!--android:title="Layout 2"-->
+        <!--app:showAsAction="never"/>-->
+    <!--<item-->
+        <!--android:id="@+id/layout3"-->
+        <!--android:title="Layout 3"-->
+        <!--app:showAsAction="never"/>-->
+    <!--<item-->
+        <!--android:id="@+id/layout4"-->
+        <!--android:title="Layout 4"-->
+        <!--app:showAsAction="never"/>-->
+    <!--<item-->
+        <!--android:id="@+id/layout5"-->
+        <!--android:title="Layout 5"-->
+        <!--app:showAsAction="never"/>-->
+    <!--<item-->
+        <!--android:id="@+id/layout6"-->
+        <!--android:title="Layout 6"-->
+        <!--app:showAsAction="never"/>-->
+    <!--<item-->
+        <!--android:id="@+id/layout7"-->
+        <!--android:title="Layout 7"-->
+        <!--app:showAsAction="never"/>-->
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ph.com.medilink.maxiflexmobileapp.Activities.MedicalRecord"
+    tools:showIn="@layout/app_bar_medical_record"
+    android:id="@+id/rv_ContentMedicalRecord">
+
+    <fragment
+        android:id="@+id/patientProfileFragment"
+        android:name="ph.com.medilink.maxiflexmobileapp.Fragments.MedicalRecord.Fragment_PatientProfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/vitalSignFragment"
+        android:name="ph.com.medilink.maxiflexmobileapp.Fragments.MedicalRecord.Fragment_VitalSign"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/pastMedicalFragment"
+        android:name="ph.com.medilink.maxiflexmobileapp.Fragments.MedicalRecord.Fragment_PastMedical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/allergyFragment"
+        android:name="ph.com.medilink.maxiflexmobileapp.Fragments.MedicalRecord.Fragment_Allergy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/obGyneFragment"
+        android:name="ph.com.medilink.maxiflexmobileapp.Fragments.MedicalRecord.Fragment_ObGyne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/socialFragment"
+        android:name="ph.com.medilink.maxiflexmobileapp.Fragments.MedicalRecord.Fragment_Social"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/uploadFilesFragment"
+        android:name="ph.com.medilink.maxiflexmobileapp.Fragments.MedicalRecord.Fragment_UploadFiles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/vital_padding">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/vital_paddingTopEndStart"
+                    android:paddingStart="@dimen/fragment_padding"
+                    android:paddingEnd="@dimen/fragment_padding">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_employment"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/label_textsize" />
+
+                    <TextView
+                        android:id="@+id/tvEmployment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/main_text_marginbottom"
+                        android:background="@drawable/edittext_emr"
+                        android:padding="@dimen/main_textpadding"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="@dimen/main_textsize" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/fragment_padding"
+                    android:paddingEnd="@dimen/fragment_padding">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_tobacco"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/label_textsize" />
+
+                    <TextView
+                        android:id="@+id/tvTobacco"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/main_text_marginbottom"
+                        android:background="@drawable/edittext_emr"
+                        android:padding="@dimen/main_textpadding"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="@dimen/main_textsize" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/fragment_padding"
+                    android:paddingEnd="@dimen/fragment_padding">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_alcohol"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/label_textsize" />
+
+                    <TextView
+                        android:id="@+id/tvAlcohol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/main_text_marginbottom"
+                        android:background="@drawable/edittext_emr"
+                        android:padding="@dimen/main_textpadding"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="@dimen/main_textsize" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/fragment_padding"
+                    android:paddingEnd="@dimen/fragment_padding">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_sexual"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/label_textsize" />
+
+                    <TextView
+                        android:id="@+id/tvSexual"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/main_text_marginbottom"
+                        android:background="@drawable/edittext_emr"
+                        android:padding="@dimen/main_textpadding"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="@dimen/main_textsize" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/fragment_padding"
+                    android:paddingEnd="@dimen/fragment_padding">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_travel"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/label_textsize" />
+
+                    <TextView
+                        android:id="@+id/tvTravel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/main_text_marginbottom"
+                        android:background="@drawable/edittext_emr"
+                        android:padding="@dimen/main_textpadding"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="@dimen/main_textsize" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/fragment_padding"
+                    android:paddingEnd="@dimen/fragment_padding">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_other_subs"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="@dimen/label_textsize" />
+
+                    <TextView
+                        android:id="@+id/tvOtherSubstances"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/main_text_marginbottom"
+                        android:background="@drawable/edittext_emr"
+                        android:padding="@dimen/main_textpadding"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="@dimen/main_textsize" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

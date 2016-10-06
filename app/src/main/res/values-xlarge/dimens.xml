@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MY CUSTOM DIMENSIONS -->
+    <!-- FOR CUSTOM DRAWABLES -->
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="focus_stroke_width">5dp</dimen>
+    <!-- LOGIN SCREEN -->
+    <dimen name="login_language_spinner_width">180dp</dimen>
+    <dimen name="login_language_spinner_height">53dp</dimen>
+    <!-- LANGUAGE ITEM LAYOUT -->
+    <dimen name="language_item_flag">35dp</dimen>
+    <dimen name="language_item_textSize">20sp</dimen>
+    <!-- LOG SEARCH DRAWER -->
+    <dimen name="drawer_width_log_search">400dp</dimen>
+    <dimen name="drawer_padding_log_search">25dp</dimen>
+    <dimen name="drawer_editText_textSize_log_search">23sp</dimen>
+    <dimen name="drawer_textView_textSize_log_search">14sp</dimen>
+    <dimen name="drawer_button_textSize_log_search">23sp</dimen>
+    <!-- FRAGMENT LETTER OF GUARANTEE -->
+    <dimen name="fragment_padding_top">20dp</dimen>
+    <dimen name="fragment_padding_left">40dp</dimen>
+    <dimen name="fragment_padding_right">40dp</dimen>
+    <dimen name="fragment_padding_bottom">20dp</dimen>
+    <dimen name="progressBar_padding">4dp</dimen>
+    <dimen name="progressBar_size">28dp</dimen>
+    <dimen name="progressBar_text">15sp</dimen>
+    <dimen name="log_item_download_textSize">12sp</dimen>
+    <!-- ACTIVITY LOCATOR -->
+    <dimen name="locator_drawer">430dp</dimen>
+
+    <!-- FRAGMENT EMR -->
+    <dimen name="fragment_padding">40dp</dimen>
+    <dimen name="label_textsize">20sp</dimen>
+    <dimen name="main_textsize">24sp</dimen>
+    <dimen name="main_textpadding">10dp</dimen>
+    <dimen name="main_text_marginbottom">18dp</dimen>
+
+    <!-- FRAGMENT VITAL SIGN DRAWER-->
+    <dimen name="vital_drawer_width">390dp</dimen>
+    <dimen name="vital_padding">10dp</dimen>
+    <dimen name="vital_paddingTopEndStart">7dp</dimen>
+
+    <!-- RECYCLERVIEW MARGIN UPLOAD FILE -->
+    <dimen name="margin_start_end">75dp</dimen>
+    <dimen name="margin_top">13dp</dimen>
+</resources>

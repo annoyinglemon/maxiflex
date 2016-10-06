@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="55dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:background="@drawable/white_circle"-->
+        <!--android:padding="3dp">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:src="@drawable/user_profile"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/ivNavPattern"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/watermark_repeater"
+       />
+
+    <TextView
+        android:id="@+id/tvMemberNameNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="Juan Dela Cruz"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:textColor="@color/textColorPrimary"
+        android:textStyle="bold"
+        android:layout_above="@+id/tvMemberUserIDNavView"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/tvMemberUserIDNavView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="theusersemail@email.com"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:textColor="@color/md_grey_700"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"/>
+
+</RelativeLayout>

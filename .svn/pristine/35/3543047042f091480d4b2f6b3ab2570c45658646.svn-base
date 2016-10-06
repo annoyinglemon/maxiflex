@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\item_medical_history.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\item_medical_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\fragment_allergy.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\fragment_allergy.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\fragment_ecard.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\fragment_ecard.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\item_upload_file.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\item_upload_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_medical_record.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\activity_medical_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\item_allergy.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\item_allergy.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_login.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\fragment_past_medical.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\fragment_past_medical.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\item_layout_log.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\item_layout_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\item_vital_sign.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\item_vital_sign.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_security_question.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\activity_security_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\fragment_vital_sign.xml",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\src\\main\\res\\layout-large\\fragment_vital_sign.xml"
+    }
+]

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-contextmanager-9.4.0_2508f2be9e42ca4bf035c15fbdf019ae45af0d45.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_96a5f146711952eee049122311c47e566a799724.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.4.0_a2d2a164c48658e235ae064ef86364f8a61ee6e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-9.4.0_feff5a9006597dfd02675d92955e981242ac162e.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.4.0_dd5b6aa0b3baecaf8312dfa4ce3bdeeb44971d9e.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-9.4.0_09490a9f2f027f77767b1d0bb105294ab08113a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.4.0_6dbcdfbb31ecd5868ac538ed9331753226b5cba8.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.4.0_ab5ee15e6dd0ad0be5199b9b8d2423e79249796c.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_c3186a8d12add2e25fa581ae1ca08f01b7a42594.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.4.0_c3681f0e89cc8fad032b612dec8c9b0969e114b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.4.0_a4de99ac61b9c971f2e9259e5f223896c0803be1.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_aca070646b3862fbca31b8ee4498c50971d1f361.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-api-9.4.0_85fd6f1fbac7586d9d024dcc6af1cc5aaa9dd64b.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_b2cc643b2a750067a1ebcb231b48bfabd907f5af.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.4.0_706ff211b9f9bf3739bc2ba87264f852d854eb09.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-23.0.0_d59d4cc7a50bd22be361fa0e2f24998b943826da.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_60294c910352b50d5d86131180f1dfb1c607b593.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_078c4243331b5c2573ace04576bd1113a93522b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.4.0_5b9835ed23decd928439c19e15c272973c88b7d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.4.0_e129361e9dddc0f161394df50d2f71e80843d7f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_df928000a2d1dc9357eeadd47fe0f762b5b90105.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.4.0_96f86b02e820ab5b841d1b18e51811d8e2f33700.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.4.0_526035b3c28ea63044280fa8af39a3cf37f6432c.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-9.4.0_db24f8dffb401e4804f77da533fe941ec43e5707.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Documents\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_8d35aa17f46eefe7d16a625d78bc9367ef641efc.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-9.4.0_6f060c2a5824d79e1eb31ca813335673a38ecfde.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-9.4.0_21bb3f64c5f48e9c7c0c1a418281c44bb4de58ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.4.0_6e06df3e3a69f739384501d18dac22dd0091d8ff.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-9.4.0_00bef39e3f40c1aa1071b217a563604729b5e971.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-framework-9.4.0_ae7905c935724a32a8a6e969d669a20d2e05661c.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.4.0_25f99ffd982ca166aecdf95d730dd5fb20905541.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-9.4.0_00d3734e927a123fe2a923f7238511b85e0d99d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_c1450e8206a8a5c09c4899ea6d668df09e71b361.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-9.4.0_f4a301975d742576544c043295ef98716a42a058.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.4.0_a3724e4d200be2e465c57ccd303f2140f9661654.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-9.4.0_7eaa364359da1568736470ee39920305452dc435.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-9.4.0_b33b7477cd415fbcb06417a4e724581a28c7e65a.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.4.0_1d825a649694420eddf341d0e188e78b112cd99c.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-config-9.4.0_0c3959273578f6a36695c2c75e0092bbd8b2e995.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-9.4.0_ed3571d82020897fc3737c1b141391499d8b61c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-9.4.0_c882124645f22f542f5265a8dbc0540e1f4463d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-9.4.0_bd2c83fd4c20d7406a474644a783cff504fe42a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.1.1_14cf04238cb4b1e2d07f0fb3b66cb87397d6f3e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-9.4.0_0ba4a2d05c64d96164c9fc7ba4d5e3590475ca86.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-9.4.0_f2dd8689643eeaedbdaaad793bfcf1a00aca0510.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.4.0_0d8dd0ea1a509b793883fdc7a8f39687620e6f72.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-9.4.0_9d81647bdc7f4656e07aadde295e95d01b278655.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-9.4.0_a181cfc20704cb4933539a1752f7f9cccccd88db.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.4.0_d42598013b2493831fbedd7b9e71a52b3d4c0284.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-9.4.0_33338c6dc3719d141ed8773c54c05a04bea772ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-9.4.0_0bd886a38b96cb68e3d98d947fe951193acc0e4b.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.4.0_207cf6e495245338dcd5736caee791b02400777a.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\ksoap2-android-assembly-2.5.7-jar-with-dependencies\ksoap2-android-assembly-2.5.7-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2922050aefdc24827cfd3947f104ca84d8d52f81">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.5.7-jar-with-dependencies_8f756a4b92cac16e2b9bc22f64d7ef17727dd9c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.4.0_8d880f87fbc5a96c8cd5633e59d795b622ce9fd4.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-9.4.0_22df11785603fe8a24c5f78692eb0085fd3d0fff.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-common-9.4.0_780145ed5c937a6be3aa819ad491cac05410285c.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.4.0_dcf859d1a4589d590ca97ed818e1d5d4a9c6ec11.jar" />
+    </item>
+    <item
+        jar="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="C:\Users\kurt_capatan\Desktop\My Own Projects\MaxiFlexMobileApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.4.0_44da1e3bb033b1bfeeb507d3f92a6e9e02f4a77d.jar" />
+    </item>
+
+</items>

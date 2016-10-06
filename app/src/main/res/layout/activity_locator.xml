@@ -1,0 +1,247 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="end"
+    android:id="@+id/dlMap">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mapToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp" />
+
+        <LinearLayout
+            android:id="@+id/llMainView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/mapToolbar"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llmapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <fragment
+                    android:id="@+id/mapFragment"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context="ph.com.match_parent.maxiflex.Locator.Locator" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvClinics"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvEmptySearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/locator_search_no_clinic"
+                android:textColor="@color/textColorSecondary"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/rg_views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/llMainView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom|center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/rb_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/locator_mapType_normal" />
+
+            <RadioButton
+                android:id="@+id/rb_satellite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/locator_mapType_satellite"  />
+
+            <RadioButton
+                android:id="@+id/rb_terrain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/locator_mapType_terrain" />
+
+        </RadioGroup>
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="10dp">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/btnSearchHospitalbyName"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@color/md_white_1000"-->
+        <!--android:padding="5dp"-->
+        <!--android:textSize="22sp"-->
+        <!--android:drawableLeft="@drawable/places_ic_search"-->
+        <!--android:hint="  Search Clinic"/>-->
+
+        <!--</LinearLayout>-->
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/locator_drawer"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@color/md_grey_300"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newline" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDrawerClinicName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Makati Medical Center CENTER CENTER CENTERCENTER CENTER AEOFNEOFHNAEUIOFAHEUIFAHEIFUAHEIFUEHAUIFHA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/textColorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newline" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/address"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/tvDrawerClinicAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="G/F Filomena BuildingFAEHFGBYAUIFGBYAEBSEUF AIEF AISEUFAIUEFH AISUEF HAISUVAISE"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/textColorSecondary"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newline" />
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/btShowRoute"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:clickable="true"-->
+            <!--android:background="?selectableItemBackground">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:src="@drawable/clinic" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="Click to Show Route"-->
+                <!--android:textColor="@color/md_black_1000"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textStyle="bold" />-->
+
+
+        <!--</LinearLayout>-->
+
+        <Button
+            android:id="@+id/btShowRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/locator_show_route"
+            android:textSize="15sp"
+            android:theme="@style/AppTheme.Button"
+            android:layout_gravity="center_horizontal"/>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/imagebutton_view_contact_details"-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:background="#00000000"-->
+                <!--android:onClick="Call"-->
+                <!--android:scaleType="fitXY"-->
+                <!--android:src="@drawable/img_call" />-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/contact_number"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="Contact number"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:textColor="@color/md_black_1000"-->
+                <!--android:textStyle="bold" />-->
+
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

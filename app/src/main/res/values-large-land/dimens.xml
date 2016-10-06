@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MY CUSTOM DIMENSIONS -->
+    <!-- FOR CUSTOM DRAWABLES -->
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="focus_stroke_width">4dp</dimen>
+    <!-- LOGIN SCREEN -->
+    <dimen name="login_language_spinner_width">180dp</dimen>
+    <dimen name="login_language_spinner_height">45dp</dimen>
+    <!-- LANGUAGE ITEM LAYOUT -->
+    <dimen name="language_item_flag">25dp</dimen>
+    <dimen name="language_item_textSize">15sp</dimen>
+    <!-- LOG SEARCH DRAWER -->
+    <dimen name="drawer_width_log_search">420dp</dimen>
+    <dimen name="drawer_padding_log_search">23dp</dimen>
+    <dimen name="drawer_editText_textSize_log_search">20sp</dimen>
+    <dimen name="drawer_textView_textSize_log_search">13sp</dimen>
+    <dimen name="drawer_button_textSize_log_search">20sp</dimen>
+    <!-- FRAGMENT LETTER OF GUARANTEE -->
+    <dimen name="fragment_padding_top">15dp</dimen>
+    <dimen name="fragment_padding_left">30dp</dimen>
+    <dimen name="fragment_padding_right">30dp</dimen>
+    <dimen name="fragment_padding_bottom">10dp</dimen>
+    <dimen name="progressBar_padding">3dp</dimen>
+    <dimen name="progressBar_size">25dp</dimen>
+    <dimen name="progressBar_text">14sp</dimen>
+    <dimen name="log_item_download_textSize">12sp</dimen>
+
+    <!-- FRAGMENT EMR -->
+    <dimen name="fragment_padding">25dp</dimen>
+    <dimen name="label_textsize">18sp</dimen>
+    <dimen name="main_textsize">22sp</dimen>
+    <dimen name="main_textpadding">8dp</dimen>
+    <dimen name="main_text_marginbottom">14dp</dimen>
+
+</resources>

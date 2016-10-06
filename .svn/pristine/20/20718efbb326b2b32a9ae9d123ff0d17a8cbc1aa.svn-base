@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="15dp"
+    android:paddingStart="40dp"
+    android:paddingEnd="40dp"
+    android:paddingBottom="15dp">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sprQuestions"
+        android:layout_gravity="end"
+        android:focusable="false"
+        android:spinnerMode="dropdown"
+        android:layout_marginBottom="@dimen/main_text_marginbottom"/>
+
+    <EditText
+        android:id="@+id/etAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_emr"
+        android:textSize="@dimen/main_textsize"
+        android:padding="@dimen/main_textpadding"
+        android:textColor="@color/textColorPrimary"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+</LinearLayout>

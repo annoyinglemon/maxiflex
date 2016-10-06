@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">MaxiFlex</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="manifest_login">Login</string>
+    <string name="Enrolment">Enrolment</string>
+
+    <!-- Login Activity Page -->
+    <string name="login_username">User ID</string>
+    <string name="login_password">Password</string>
+    <string name="login_enroll">Enroll</string>
+    <string name="login_signIn">Sign In</string>
+    <string name="login_language">Select Language</string>
+    <string name="login_poweredBy">Powered By:</string>
+    <string name="login_locator">Locator</string>
+    <string name="login_signinaccount">Sign in to your account</string>
+    <string name="login_forgotPassword">Forgot Password</string>
+    <string name="login_resetPassword">Reset Password</string>
+    <string name="login_resetPassword_email">Please enter your 16-digit card number. We will send you an email concerning your new password.</string>
+    <string name="login_required_username">Username is required.</string>
+    <string name="login_required_password">Password is required.</string>
+    <string name="login_required_userpass">Username and password is required.</string>
+    <string name="login_validate">Validating Credentials&#8230;</string>
+    <string name="login_forgotpwd_request">Sending Request&#8230;</string>
+    <string name="login_locating_clinics">Locating Clinics&#8230;</string>
+    <string name="password_reset_success">Your password has been reset.</string>
+    <string name="password_reset_failed">Password reset was not successful. You may have entered an incorrect card number.</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="action_signOut">Sign Out</string>
+    <string name="action_log">Letter of Authorization</string>
+    <string name="newline" />
+    <string name="Locator">Locator</string>
+
+    <!-- LOCATOR -->
+    <string name="locator_features_unavailable">This device does not provide location services. Some features are unavailable.</string>
+    <string name="locator_features_unable">This device does not provide location services. Unable to use this feature.</string>
+    <string name="locator_enable_location">Please enable your device\'s location provider.</string>
+    <string name="locator_search_clinic">Search Clinic</string>
+    <string name="locator_search_no_clinic">No clinics matched your search</string>
+    <string name="locator_show_route">Show route from current location</string>
+    <string name="locator_finding_route">Finding possible route&#8230;</string>
+    <string name="fragment_apply_route">Applying route on map&#8230;</string>
+    <string name="locator_mapType_normal">Normal</string>
+    <string name="locator_mapType_terrain">Terrain</string>
+    <string name="locator_mapType_satellite">Satellite</string>
+
+    <!-- Fragment eCard -->
+    <string name="fragment_ecard_qrcode">Note: Show QR Code to your health provider to determine your eligibility</string>
+    <string name="fragment_flip_card">Tap to flip card</string>
+    <string name="valid_until">valid until:</string>
+
+    <!-- Fragment LOA -->
+    <string name="fragment_download_log">Downloading LOA, please wait&#8230; </string>
+    <string name="fragment_download_error_file">An error occurred while downloading the file, try again later.</string>
+    <string name="fragment_download_saved">Letter of authorization was saved in</string>
+    <string name="fragment_download_view_unable">Unable to view LOA, please download a PDF reader application from the Play Store.</string>
+    <string name="fragment_refresh">Loading...</string>
+    <string name="fragment_issue_date">Issue Date:</string>
+    <string name="fragment_availment_date">Availment Date:</string>
+    <string name="fragment_log_number">LOA Number:</string>
+    <string name="fragment_clinic_name">Clinic Name:</string>
+    <string name="fragment_dentist_name">Dentist Name:</string>
+    <string name="fragment_no_log_found">No existing LOA found</string>
+    <string name="saved_tap_to_view">Saved, tap to view</string>
+    <string name="not_saved_tap_to_dl">Not saved, tap to download</string>
+
+    <!-- Search Drawer -->
+    <string name="drawer_search_search">Search</string>
+    <string name="drawer_search_dateFrom">Date From:</string>
+    <string name="drawer_search_dateFormat">MM-dd-yyyy</string>
+    <string name="drawer_search_dateTo">Date To:</string>
+    <string name="drawer_search_keywords">Enter Keywords Here..</string>
+    <string name="drawer_search_logNumber">LOA Number:</string>
+    <string name="drawer_search_name">Name:</string>
+    <string name="drawer_search_clear">Clear</string>
+
+    <!-- dialog, dialog button and toasts messages -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="enable_internet">Please connect to a WiFi hotspot or enable mobile data to continue.</string>
+    <string name="disconnected">Internet connection is disconnected. Some features are unavailable offline.</string>
+    <string name="error_occurred">An error occurred, please try again later.</string>
+    <string name="slow_internet">Slow internet connection, try again later.</string>
+    <string name="back_button">Press back button again to exit.</string>
+    <string name="sign_out">Are you sure you want to sign out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="settings">Settings</string>
+    <string name="quit">Quit</string>
+    <string name="proceed_offline">Proceed Offline</string>
+    <string name="inactive_clinic">The Clinic where you belong is already inactive.</string>
+    <string name="member_only">This application is intend for Member only.</string>
+    <string name="already_logged_in">User is Currently logged in.</string>
+    <string name="deactivated">Your Account is Deactivated. Please contact your System Admin.</string>
+    <string name="password_reset_sent">Your password has been reset and sent to your registered email address.</string>
+    <string name="user_pass_incorrect">Username or Password is incorrect.</string>
+    <string name="download_file">Downloading file, please wait&#8230;</string>
+
+    <!-- Menu -->
+    <string name="menu_ecard">e-Card</string>
+    <string name="menu_log">Letter of Authorization</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_signout">Sign out</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_medical_records">Medical Records</string>
+    <string name="menu_patient_profile">Patient Profile</string>
+    <string name="menu_vital_signs">Vital Signs</string>
+    <string name="menu_medical_history">Medical History</string>
+    <string name="menu_ob_gyn">Ob-gyn</string>
+    <string name="menu_medication">Medication</string>
+    <string name="menu_immunization">Immunization</string>
+    <string name="menu_family">Family</string>
+    <string name="menu_upload_file">Uploaded file</string>
+    <string name="menu_social">Social</string>
+    <string name="menu_allergy">Allergy</string>
+
+    <string name="menu_exit">Go back</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_medical_record">MedicalRecord</string>
+
+    <!-- FRAGMENT_PATIENT PROFILE -->
+    <string name="patient_name">Patient Name:</string>
+    <string name="label_last_name">Last Name:</string>
+    <string name="label_first_name">First Name:</string>
+    <string name="label_middle_name">Middle Name:</string>
+    <string name="label_birthdate">Date of Birth:</string>
+    <string name="label_sex">Sex:</string>
+    <string name="label_height">Height (cm):</string>
+    <string name="label_weight">Weight (kg):</string>
+    <string name="label_bmi">BMI:</string>
+    <string name="label_blood_pressure">Blood Pressure:</string>
+    <string name="label_temperature">Temperature (°C):</string>
+    <string name="label_pulse_rate">Pulse Rate (bpm):</string>
+    <string name="label_respiratory">Respiratory Rate:</string>
+    <string name="label_pain">Pain Index:</string>
+    <string name="label_recdate">Record Date:</string>
+    <string name="label_type">Type:</string>
+    <string name="label_month">Month:</string>
+    <string name="label_year">Year:</string>
+    <string name="label_reason">Reason:</string>
+    <string name="label_remarks">Remarks:</string>
+    <string name="label_allergy">Allergy:</string>
+    <string name="label_status">Status:</string>
+    <string name="label_symptoms">Symptoms/Reactions:</string>
+    <string name="label_allergy_management">Allergic Reaction Management:</string>
+    <string name="label_menstrual">Menstrual:</string>
+    <string name="label_obstetrical">Obstetrical:</string>
+    <string name="label_gynecological">Gynecological:</string>
+    <string name="label_employment">Employment:</string>
+    <string name="label_tobacco">Tobacco:</string>
+    <string name="label_alcohol">Alcohol:</string>
+    <string name="label_sexual">Sexual:</string>
+    <string name="label_travel">Travel:</string>
+    <string name="label_other_subs">Other Substances:</string>
+
+    <string name="desensitized">Desensitized</string>
+    <string name="sensitive">Still sensitive</string>
+    <string name="NoExistingRecords">No existing records found.</string>
+
+    <string name="pain_no_pain">No Pain</string>
+    <string name="pain_mild">Mild</string>
+    <string name="pain_moderate">Moderate</string>
+    <string name="pain_severe">Severe</string>
+    <string name="pain_very_severe">Very Severe</string>
+    <string name="pain_worst">Worst</string>
+    <string name="date_uploaded">Date Uploaded:</string>
+
+
+    <string name="question1">What was your childhood nickname?</string>
+    <string name="question2">In what city did you meet your spouse/significant other?</string>
+    <string name="question3">What is the name of your favorite childhood friend?</string>
+    <string name="question4">What street did you live on in third grade?</string>
+    <string name="question5">What was your childhood phone number including area code? (eg., 000&#8211;000&#8211;0000)</string>
+    <string name="question6">What is the country of your ultimate dream vacation?</string>
+    <string name="question7">What is the name of your favorite childhood teacher?</string>
+    <string name="question8">What is the street number of the house you grew up in?</string>
+    <string name="question9">What is your favorite movie?</string>
+    <string name="question10">Who is your favorite author?</string>
+
+</resources>

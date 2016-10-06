@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_share.png",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_share.png"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_send.png",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_camera.png",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_manage.png",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_manage.png"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_gallery.png",
+        "source": "C:\\Users\\kurt_capatan\\Desktop\\My Own Projects\\MaxiFlexMobileApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_gallery.png"
+    }
+]

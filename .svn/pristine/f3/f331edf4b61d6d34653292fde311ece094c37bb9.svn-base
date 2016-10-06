@@ -1,0 +1,277 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Fragment_eCard"
+    android:background="@color/md_white_1000">
+
+    <LinearLayout
+        android:id="@+id/lvDownloadProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_grey_300"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/progressBar_padding"
+        android:paddingTop="@dimen/progressBar_padding"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="@dimen/progressBar_size"
+            android:layout_height="@dimen/progressBar_size"
+            android:layout_marginEnd="5dp"
+            android:indeterminate="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_refresh"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/progressBar_text" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/cardCase"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/ivEcard"
+            android:layout_width="475dp"
+            android:layout_height="303dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:clickable="false"/>
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/cardFront"-->
+        <!--android:layout_width="500dp"-->
+        <!--android:layout_height="318.25dp"-->
+        <!--android:visibility="invisible" />-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/cardBack"-->
+        <!--android:layout_width="500dp"-->
+        <!--android:layout_height="318.25dp"-->
+        <!--android:visibility="invisible" />-->
+
+    <RelativeLayout
+        android:id="@+id/cardBack"
+        android:layout_width="475dp"
+        android:layout_height="303dp"
+        android:background="@drawable/ecard_back"
+        android:visibility="invisible">
+        <ImageView
+            android:id="@+id/ivQRCode"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="87dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/cardFront"
+        android:layout_width="475dp"
+        android:layout_height="303dp"
+        android:background="@drawable/ecard_front"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvEcard_cardNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="4649 6580 8173 4017"
+                    android:textColor="@color/md_grey_900"
+                    android:textSize="37sp"
+                    android:layout_marginBottom="-3dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvEcard_cardNumber4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4649"
+                        android:textColor="@color/md_grey_900"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tvValidFrom"
+                        android:layout_width="61dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="3dp"
+                        android:gravity="bottom|center"
+                        android:text="VALID\nFROM"
+                        android:textColor="@color/md_grey_900"
+                        android:textSize="10sp"
+                        android:visibility="invisible"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="invisible">
+
+                        <TextView
+                            android:id="@+id/tvValidFromMonthYear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Month/Year"
+                            android:textColor="@color/md_grey_900"
+                            android:textSize="10sp"
+                            android:layout_marginBottom="-3dp"/>
+
+                        <TextView
+                            android:id="@+id/tvEcard_Valid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="06/11"
+                            android:textColor="@color/md_grey_900"
+                            android:textSize="26sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvValidThru"
+                        android:layout_width="63dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="3dp"
+                        android:gravity="bottom|center"
+                        android:text="VALID\nTHRU"
+                        android:textColor="@color/md_grey_900"
+                        android:textSize="10sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvValidThruMonthYear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Month/Year"
+                            android:textColor="@color/md_grey_900"
+                            android:textSize="10sp"
+                            android:layout_marginBottom="-3dp"/>
+
+                        <TextView
+                            android:id="@+id/tvEcard_expiry"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="05/16"
+                            android:textColor="@color/md_grey_900"
+                            android:textSize="26sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tvEcard_memberName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:ellipsize="marquee"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="JUAN DELA CRUZ"
+                    android:textColor="@color/md_grey_900"
+                    android:textSize="19sp"
+                    android:layout_marginBottom="-4dp"/>
+
+                <!--<TextView-->
+                <!--android:id="@+id/tvEcard_memberId"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:maxLines="1"-->
+                <!--android:text="5000000055"-->
+                <!--android:textColor="@color/md_blue_grey_900"-->
+                <!--/>-->
+
+                <TextView
+                    android:id="@+id/tvEcard_corpName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:ellipsize="marquee"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="PHILHEALTH"
+                    android:textColor="@color/md_grey_900"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="30"-->
+            <!--android:gravity="end"-->
+            <!--android:orientation="vertical"-->
+            <!--android:paddingEnd="10dp">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/labelExpiry"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/valid_until"-->
+            <!--android:textColor="@color/md_blue_grey_900"-->
+            <!--android:textSize="8.5sp" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvEcard_expiry"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="13-Jul-2017"-->
+            <!--android:textColor="@color/md_blue_grey_900"-->
+            <!--android:textSize="8.5sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_below="@+id/labelExpiry"/>-->
+
+            <!--</RelativeLayout>-->
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/taptoflip"
+        android:textColor="@color/textColorSecondary"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:text="@string/fragment_ecard_qrcode"/>
+
+    <TextView
+        android:id="@+id/taptoflip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="13dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/fragment_flip_card"
+        android:textColor="@color/md_white_1000"
+        android:textSize="22sp"
+        android:background="@color/md_blue_500"/>
+</RelativeLayout>

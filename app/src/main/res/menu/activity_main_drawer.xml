@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+        <!--android:id="@+id/nav_op"-->
+        <!--android:icon="@drawable/out_patient"-->
+        <!--android:title="Out-Patient" />-->
+        <item
+            android:id="@+id/nav_ecard"
+            android:icon="@drawable/ic_ecard"
+            android:title="@string/menu_ecard" />
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/ic_log"
+            android:title="@string/menu_log" />
+        <!--<item-->
+        <!--android:id="@+id/nav_changePass"-->
+        <!--android:icon="@drawable/change_password"-->
+        <!--android:title="Change Password" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_contactInfo"-->
+        <!--android:icon="@drawable/contact_info"-->
+        <!--android:title="Contact Information" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_help"-->
+        <!--android:icon="@drawable/help"-->
+        <!--android:title="Help" />-->
+    </group>
+
+    <group android:checkableBehavior="none" >
+        <item
+            android:id="@+id/nav_medical_records"
+            android:icon="@drawable/ic_medical_record"
+            android:title="@string/menu_medical_records" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_signout"
+            android:title="@string/action_signOut" />
+    </group>
+    <!--<item android:title="Contact Us">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_email"-->
+    <!--android:icon="@android:drawable/sym_action_email"-->
+    <!--android:title="Email" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_call"-->
+    <!--android:icon="@android:drawable/ic_menu_call"-->
+    <!--android:title="Call" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>

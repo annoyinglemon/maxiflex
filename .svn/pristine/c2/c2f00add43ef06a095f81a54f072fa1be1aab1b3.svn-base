@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- MY CUSTOM DIMENSIONS -->
+    <!-- FOR CUSTOM DRAWABLES -->
+    <dimen name="corner_radius">3dp</dimen>
+    <dimen name="focus_stroke_width">2dp</dimen>
+    <!-- LOGIN SCREEN -->
+    <dimen name="login_language_spinner_width">170dp</dimen>
+    <dimen name="login_language_spinner_height">40dp</dimen>
+    <!-- LANGUAGE ITEM LAYOUT -->
+    <dimen name="language_item_flag">20dp</dimen>
+    <dimen name="language_item_textSize">13sp</dimen>
+    <dimen name="tvEmptyLOG">20sp</dimen>
+    <!-- LOG SEARCH DRAWER -->
+    <dimen name="drawer_width_log_search">310dp</dimen>
+    <dimen name="drawer_padding_log_search">12dp</dimen>
+    <dimen name="drawer_editText_textSize_log_search">18sp</dimen>
+    <dimen name="drawer_textView_textSize_log_search">12sp</dimen>
+    <dimen name="drawer_button_textSize_log_search">18sp</dimen>
+    <!-- FRAGMENT LETTER OF GUARANTEE -->
+    <dimen name="fragment_padding_top">10dp</dimen>
+    <dimen name="fragment_padding_left">6dp</dimen>
+    <dimen name="fragment_padding_right">6dp</dimen>
+    <dimen name="fragment_padding_bottom">10dp</dimen>
+    <dimen name="progressBar_padding">2dp</dimen>
+    <dimen name="progressBar_size">20dp</dimen>
+    <dimen name="progressBar_text">12sp</dimen>
+    <dimen name="log_item_download_textSize">9sp</dimen>
+    <!-- ACTIVITY LOCATOR -->
+    <dimen name="locator_drawer">290dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- FRAGMENT PATIENT PROFILE -->
+    <dimen name="fragment_padding">16dp</dimen>
+    <dimen name="label_textsize">14sp</dimen>
+    <dimen name="main_textsize">19sp</dimen>
+    <dimen name="main_textpadding">5dp</dimen>
+    <dimen name="main_text_marginbottom">10dp</dimen>
+
+    <!-- FRAGMENT VITAL SIGN DRAWER-->
+    <dimen name="vital_drawer_width">320dp</dimen>
+    <dimen name="vital_padding">5dp</dimen>
+    <dimen name="vital_paddingTopEndStart">4dp</dimen>
+
+    <!-- RECYCLERVIEW MARGIN UPLOAD FILE -->
+    <dimen name="margin_start_end">20dp</dimen>
+    <dimen name="margin_top">5dp</dimen>
+
+</resources>
