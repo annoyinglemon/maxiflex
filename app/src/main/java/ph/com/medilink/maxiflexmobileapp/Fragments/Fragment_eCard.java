@@ -370,12 +370,12 @@ public class Fragment_eCard extends Fragment implements Animation.AnimationListe
 //            GlobalFunctions.unlockOrientation(getActivity());
             if (result.equalsIgnoreCase("failed")) {
                 new GlobalFunctions().showAlertMessage(getContext(), GlobalVariables.ERROR_MESSAGE);
-                cardFront.setBackground(ContextCompat.getDrawable(getContext(),R.drawable.ecard_front));
-                cardBack.setBackground(ContextCompat.getDrawable(getContext(),R.drawable.ecard_back));
-            }else {
-                GlobalVariables.bmFront = getBitmapFromView(cardFront);
-                ivEcard.setImageBitmap(GlobalVariables.bmFront);
+                cardFront.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.ecard_front));
+                cardBack.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.ecard_back));
             }
+            GlobalVariables.bmFront = getBitmapFromView(cardFront);
+            ivEcard.setImageBitmap(GlobalVariables.bmFront);
+
 //            GlobalVariables.bmBack = getBitmapFromView(cardBack);
 //            ivEcard.setClickable(true);
             new GenerateQRCode().execute("Member ID: " + GlobalVariables.MEMBER_ID + ";"
