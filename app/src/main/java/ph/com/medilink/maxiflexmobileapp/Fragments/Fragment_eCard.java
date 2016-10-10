@@ -379,7 +379,6 @@ public class Fragment_eCard extends Fragment implements Animation.AnimationListe
 //            GlobalVariables.bmBack = getBitmapFromView(cardBack);
 //            ivEcard.setClickable(true);
             new GenerateQRCode().execute("Member ID: " + GlobalVariables.MEMBER_ID + ";"
-                    + "Main Member ID: " + GlobalVariables.MAIN_MEMBER_ID + ";"
                     + "Card Number: " + GlobalVariables.CARD_NO + ";"
                     + "Expiry Date: " + GlobalVariables.EXPIRY_DATE_MMddYYYY);
             super.onPostExecute(result);
