@@ -663,7 +663,8 @@ public class MedicalRecord extends AppCompatActivity implements NavigationView.O
             lvDownloadProgress.setVisibility(View.GONE);
             GlobalFunctions.unlockOrientation(MedicalRecord.this);
             if(result.contains("Error:")||result.contains("error")||result.contains("Exception:"))
-                new GlobalFunctions().showAlertMessage(MedicalRecord.this, result);
+//                new GlobalFunctions().showAlertMessage(MedicalRecord.this, result);
+                new GlobalFunctions().showAlertMessage(MedicalRecord.this, getResources().getString(R.string.error_occurred));
             isMenuRefreshClicked = false;
             super.onPostExecute(result);
         }

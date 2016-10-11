@@ -21,8 +21,10 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.Display;
+import android.view.LayoutInflater;
 import android.view.Surface;
 import android.view.View;
+import android.widget.TextView;
 
 import java.io.File;
 
@@ -253,6 +255,29 @@ public class GlobalFunctions {
         progressDialog.show();
         return progressDialog;
     }
+
+
+//    /**
+//     * shows a simple alert message containing the error message
+//     * @param context context of the app
+//     * @param errorMessage error message to be shown on alert dialog
+//     */
+//    public void showErrorMessage(Context context, String errorMessage){
+//        View dialog_error_message = LayoutInflater.from(context).inflate(R.layout.dialog_error_message, null);
+//        TextView tvErrorMessage = (TextView) dialog_error_message.findViewById(R.id.tvErrorMessage);
+//        tvErrorMessage.setText(errorMessage);
+//        AlertDialog.Builder builder= new AlertDialog.Builder(context);
+//        builder.setMessage(context.getString(R.string.error_occurred_dialog));
+//        builder.setView(dialog_error_message);
+//        builder.setCancelable(false);
+//        builder.setPositiveButton(context.getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                dialog.dismiss();
+//            }
+//        });
+//        builder.show();
+//    }
 
     /**
      * add separator lines on items of recycler view

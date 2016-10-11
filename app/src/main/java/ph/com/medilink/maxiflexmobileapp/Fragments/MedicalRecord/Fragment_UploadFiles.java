@@ -408,9 +408,11 @@ public class Fragment_UploadFiles extends Fragment {
             progressDialog.dismiss();
             GlobalFunctions.unlockOrientation(getActivity());
             if (s.contains("Exception")) {
-                Toast.makeText(getContext(), "Exception: " + s, Toast.LENGTH_LONG).show();
+                new GlobalFunctions().showAlertMessage(getContext(), getResources().getString(R.string.error_occurred));
+//                Toast.makeText(getContext(), "Exception: " + s, Toast.LENGTH_LONG).show();
             } else if(s.contains("Error:")){
-                Toast.makeText(getContext(), s, Toast.LENGTH_LONG).show();
+//                Toast.makeText(getContext(), s, Toast.LENGTH_LONG).show();
+                new GlobalFunctions().showAlertMessage(getContext(), getResources().getString(R.string.error_occurred));
             } else if (s.equalsIgnoreCase("Error"))
                 Toast.makeText(getContext(), getContext().getResources().getString(R.string.fragment_download_error_file), Toast.LENGTH_LONG).show();
             else {

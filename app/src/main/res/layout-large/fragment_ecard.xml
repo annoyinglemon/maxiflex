@@ -273,7 +273,7 @@
         android:padding="15dp"
         android:layout_alignParentBottom="true"
         android:text="@string/fragment_flip_card"
-        android:textColor="@color/md_blue_grey_900"
+        android:textColor="@color/md_white_1000"
         android:textSize="22sp"
         android:background="@color/md_blue_500"/>
 </RelativeLayout>

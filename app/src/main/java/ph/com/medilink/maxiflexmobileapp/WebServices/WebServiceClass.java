@@ -9,6 +9,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 
+import org.ksoap2.HeaderProperty;
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.SoapFault;
 import org.ksoap2.serialization.SoapObject;
@@ -72,6 +73,11 @@ public class WebServiceClass {
                 envelope.setOutputSoapObject(request);
 
                 HttpTransportSE httpTransport = new HttpTransportSE(URL, 50000);
+
+//                ArrayList<HeaderProperty> headerPropertyArrayList = new ArrayList<HeaderProperty>();
+//                headerPropertyArrayList.add(new HeaderProperty("Connection", "close"));
+//                httpTransport.call(SOAP_ACTION, envelope, headerPropertyArrayList);
+
                 httpTransport.call(SOAP_ACTION, envelope);
 
                 if(envelope.bodyIn instanceof SoapFault){

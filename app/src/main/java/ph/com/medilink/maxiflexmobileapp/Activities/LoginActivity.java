@@ -203,7 +203,7 @@ public class LoginActivity extends AppCompatActivity {
         btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO: for testing purposes only, opens MainActivity immediately, uncomment if you want up to LoginActivity.this.finish() then comment below code up to new LoginAsynctask().execute(etUsername.getText().toString(), etPassword.getText().toString()); } }
+                // TODO: for testing purposes only, opens MainActivity immediately, uncomment if you want, up to LoginActivity.this.finish() then comment below code up to new LoginAsynctask().execute(etUsername.getText().toString(), etPassword.getText().toString()); } }
 //                Intent mainIntent = new Intent(LoginActivity.this, MainActivity.class);
 //                startActivity(mainIntent);
 //                LoginActivity.this.finish();
@@ -387,7 +387,8 @@ public class LoginActivity extends AppCompatActivity {
             GlobalFunctions.unlockOrientation(LoginActivity.this);
             //if GlobalVariables.ERROR_MESSAGE has "Error:" or "Exception", show the error message
             if (GlobalVariables.ERROR_MESSAGE.contains("Error:") || GlobalVariables.ERROR_MESSAGE.contains("Exception:")) {
-                new GlobalFunctions().showAlertMessage(LoginActivity.this, result);
+//                new GlobalFunctions().showAlertMessage(LoginActivity.this, result);
+                new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.error_occurred));
             }
             //if internet is slow
             else if (GlobalVariables.ERROR_MESSAGE.equalsIgnoreCase("Slow Network")) {
@@ -615,11 +616,13 @@ public class LoginActivity extends AppCompatActivity {
                     }
                     //if login unsuccessful
                     else if (s.contains("Error:")) {
-                        new GlobalFunctions().showAlertMessage(LoginActivity.this, s);
+                        new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.error_occurred));
                     } else if (s.equalsIgnoreCase("Error")) {
                         new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.error_occurred));
                     } else if (s.equalsIgnoreCase("Slow Network")) {
                         new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.slow_internet));
+                    } else if (s.equalsIgnoreCase("Member not yet approved activated.")) {
+                        new GlobalFunctions().showAlertMessage(LoginActivity.this, "Member not yet approved or activated.");
                     } else if (s.equalsIgnoreCase("The Clinic where you belong is already inactive.")) {
                         new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.inactive_clinic));
                     } else if (s.equalsIgnoreCase("This application is intend for Member only.")) {
@@ -633,12 +636,14 @@ public class LoginActivity extends AppCompatActivity {
                     } else if (s.equalsIgnoreCase("Username or Password is incorrect.")) {
                         new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.user_pass_incorrect));
                     } else {
-                        new GlobalFunctions().showAlertMessage(LoginActivity.this, s);
+//                        new GlobalFunctions().showAlertMessage(LoginActivity.this, s);
+                        new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.error_occurred));
                     }
 
                 } catch (Exception ex) {
                     ex.printStackTrace();
-                    new GlobalFunctions().showAlertMessage(LoginActivity.this, "Exception:" + ex.getMessage());
+//                    new GlobalFunctions().showAlertMessage(LoginActivity.this, "Exception:" + ex.getMessage());
+                    new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.error_occurred));
                 }
             }
         }
@@ -687,14 +692,13 @@ public class LoginActivity extends AppCompatActivity {
                         new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.password_reset_success));
                     }
                     //if not successful
-                    else if (GlobalVariables.ERROR_MESSAGE.contains("Error:") || GlobalVariables.ERROR_MESSAGE.contains("Exception:")) {
-                        new GlobalFunctions().showAlertMessage(LoginActivity.this, GlobalVariables.ERROR_MESSAGE);
+                    else if (GlobalVariables.ERROR_MESSAGE.contains("Error") || GlobalVariables.ERROR_MESSAGE.contains("Exception:")) {
+//                        new GlobalFunctions().showAlertMessage(LoginActivity.this, GlobalVariables.ERROR_MESSAGE);
+                        new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.error_occurred));
                     } else if (GlobalVariables.ERROR_MESSAGE.equalsIgnoreCase("Slow network")) {
                         new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.slow_internet));
-                    } else if (!result) {
-                        new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.password_reset_failed));
                     } else {
-                        new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.error_occurred));
+                        new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.password_reset_failed));
                     }
                 } catch (Exception ex) {
                     ex.printStackTrace();
@@ -736,7 +740,8 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 // if unsuccessful
                 else if (GlobalVariables.ERROR_MESSAGE.contains("Error:") || GlobalVariables.ERROR_MESSAGE.contains("Exception:")) {
-                    new GlobalFunctions().showAlertMessage(LoginActivity.this, GlobalVariables.ERROR_MESSAGE);
+//                    new GlobalFunctions().showAlertMessage(LoginActivity.this, GlobalVariables.ERROR_MESSAGE);
+                    new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.error_occurred));
                 } else if (GlobalVariables.ERROR_MESSAGE.equalsIgnoreCase("Slow network")) {
                     new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.slow_internet));
                 } else {
@@ -744,7 +749,8 @@ public class LoginActivity extends AppCompatActivity {
                 }
             } catch (Exception ex) {
                 ex.printStackTrace();
-                new GlobalFunctions().showAlertMessage(LoginActivity.this, "Exception:" + ex.getMessage());
+                new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.error_occurred));
+//                new GlobalFunctions().showAlertMessage(LoginActivity.this, "Exception:" + ex.getMessage());
             }
 
         }
@@ -791,7 +797,8 @@ public class LoginActivity extends AppCompatActivity {
             GlobalFunctions.unlockOrientation(LoginActivity.this);
             //TODO: UNCOMMENT BELOW, clinicClasses1 is for testing purposes only
             if((clinicClasses.size()==0 && GlobalVariables.ERROR_MESSAGE.contains("Exception"))||GlobalVariables.ERROR_MESSAGE.contains("Error:")){
-                new GlobalFunctions().showAlertMessage(LoginActivity.this, GlobalVariables.ERROR_MESSAGE);
+//                new GlobalFunctions().showAlertMessage(LoginActivity.this, GlobalVariables.ERROR_MESSAGE);
+                new GlobalFunctions().showAlertMessage(LoginActivity.this, getResources().getString(R.string.error_occurred));
             }else{
                 Intent i = new Intent(LoginActivity.this, Locator.class);
                 i.putExtra("CLINICS", clinicClasses);

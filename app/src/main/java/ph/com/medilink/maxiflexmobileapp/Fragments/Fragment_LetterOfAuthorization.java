@@ -547,7 +547,8 @@ public class Fragment_LetterOfAuthorization extends Fragment {
                 rvLetterOfGuarantee.setVisibility(View.VISIBLE);
                 tvEmptyLOG.setVisibility(View.GONE);
             } else if (LOGlist.size() == 0 && GlobalVariables.ERROR_MESSAGE.contains("Exception")||GlobalVariables.ERROR_MESSAGE.contains("Error:")) {
-                new GlobalFunctions().showAlertMessage(getContext(), GlobalVariables.ERROR_MESSAGE);
+//                new GlobalFunctions().showAlertMessage(getContext(), GlobalVariables.ERROR_MESSAGE);
+                new GlobalFunctions().showAlertMessage(getContext(), getResources().getString(R.string.error_occurred));
                 rvLetterOfGuarantee.setVisibility(View.GONE);
                 tvEmptyLOG.setVisibility(View.GONE);
             } else {
@@ -599,9 +600,11 @@ public class Fragment_LetterOfAuthorization extends Fragment {
             progressDialog.dismiss();
             GlobalFunctions.unlockOrientation(getActivity());
             if (s.contains("Exception")) {
-                Toast.makeText(getContext(), "Exception: " + s, Toast.LENGTH_LONG).show();
+                new GlobalFunctions().showAlertMessage(getContext(), getResources().getString(R.string.error_occurred));
+//                Toast.makeText(getContext(), "Exception: " + s, Toast.LENGTH_LONG).show();
             } else if (s.contains("Error:")) {
-                Toast.makeText(getContext(), s, Toast.LENGTH_LONG).show();
+                new GlobalFunctions().showAlertMessage(getContext(), getResources().getString(R.string.error_occurred));
+//                Toast.makeText(getContext(), s, Toast.LENGTH_LONG).show();
             }  else if (s.equalsIgnoreCase("Error"))
                 Toast.makeText(getContext(), getContext().getResources().getString(R.string.fragment_download_error_file), Toast.LENGTH_LONG).show();
             else {

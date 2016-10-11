@@ -235,7 +235,8 @@ public class SecurityQuestionAcitivity extends AppCompatActivity {
                         };
                         new GlobalFunctions().showAlertMessage(SecurityQuestionAcitivity.this, "Your answers are submitted successfully.", listener);
                     } else if (GlobalVariables.ERROR_MESSAGE.contains("Error:") || GlobalVariables.ERROR_MESSAGE.contains("Exception:")) {
-                        new GlobalFunctions().showAlertMessage(SecurityQuestionAcitivity.this, GlobalVariables.ERROR_MESSAGE);
+//                        new GlobalFunctions().showAlertMessage(SecurityQuestionAcitivity.this, GlobalVariables.ERROR_MESSAGE);
+                        new GlobalFunctions().showAlertMessage(SecurityQuestionAcitivity.this, getResources().getString(R.string.error_occurred));
                     } else if (GlobalVariables.ERROR_MESSAGE.equalsIgnoreCase("Slow network")) {
                         new GlobalFunctions().showAlertMessage(SecurityQuestionAcitivity.this, getResources().getString(R.string.slow_internet));
                     } else {
@@ -243,7 +244,8 @@ public class SecurityQuestionAcitivity extends AppCompatActivity {
                     }
                 } catch (Exception ex) {
                     ex.printStackTrace();
-                    new GlobalFunctions().showAlertMessage(SecurityQuestionAcitivity.this, "Exception:" + ex.getMessage());
+                    new GlobalFunctions().showAlertMessage(SecurityQuestionAcitivity.this, getResources().getString(R.string.error_occurred));
+//                    new GlobalFunctions().showAlertMessage(SecurityQuestionAcitivity.this, "Exception:" + ex.getMessage());
                 }
             }
         }

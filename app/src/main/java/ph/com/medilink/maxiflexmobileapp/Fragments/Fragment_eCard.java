@@ -369,7 +369,8 @@ public class Fragment_eCard extends Fragment implements Animation.AnimationListe
 //            lvDownloadProgress.setVisibility(View.GONE);
 //            GlobalFunctions.unlockOrientation(getActivity());
             if (result.equalsIgnoreCase("failed")) {
-                new GlobalFunctions().showAlertMessage(getContext(), GlobalVariables.ERROR_MESSAGE);
+                new GlobalFunctions().showAlertMessage(getContext(), getResources().getString(R.string.error_occurred));
+//                new GlobalFunctions().showErrorMessage(getContext(), GlobalVariables.ERROR_MESSAGE);
                 cardFront.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.ecard_front));
                 cardBack.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.ecard_back));
             }
@@ -403,7 +404,8 @@ public class Fragment_eCard extends Fragment implements Animation.AnimationListe
             lvDownloadProgress.setVisibility(View.GONE);
             GlobalFunctions.unlockOrientation(getActivity());
             if (bitmapArray == null)
-                new GlobalFunctions().showAlertMessage(getContext(), GlobalVariables.ERROR_MESSAGE);
+                new GlobalFunctions().showAlertMessage(getContext(), getResources().getString(R.string.error_occurred));
+//                new GlobalFunctions().showAlertMessage(getContext(), GlobalVariables.ERROR_MESSAGE);
             else {
                 ivQRCode.setImageBitmap(BitmapFactory.decodeByteArray(bitmapArray, 0, bitmapArray.length));
             }

@@ -3,6 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/app" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/ksoap2-android-assembly-2.6.4-jar-with-dependencies" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/ksoap2-android-assembly-3.0.0-jar-with-dependencies" vcs="svn" />
   </component>
 </project>

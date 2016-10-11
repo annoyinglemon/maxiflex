@@ -86,8 +86,10 @@
     <string name="send">Send</string>
     <string name="enable_internet">Please connect to a WiFi hotspot or enable mobile data to continue.</string>
     <string name="disconnected">Internet connection is disconnected. Some features are unavailable offline.</string>
-    <string name="error_occurred">An error occurred, please try again later.</string>
-    <string name="slow_internet">Slow internet connection, try again later.</string>
+    <string name="error_occurred">An unexpected error occurred, please contact your administrator regarding this.</string>
+    <!--<string name="error_occurred_dialog">An unexpected error occurred, please contact your administrator regarding this.</string>-->
+
+    <string name="slow_internet">Server is unreachable, your internet connection might be slow, try again later.</string>
     <string name="back_button">Press back button again to exit.</string>
     <string name="sign_out">Are you sure you want to sign out?</string>
     <string name="yes">Yes</string>
