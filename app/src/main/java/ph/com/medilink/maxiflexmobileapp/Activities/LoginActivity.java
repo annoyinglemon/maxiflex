@@ -50,6 +50,9 @@ public class LoginActivity extends AppCompatActivity {
         tvForgotPassword = (TextView) findViewById(R.id.tvForgotPassword);
         tvCardReplacement = (TextView) findViewById(R.id.tvCardReplacement);
 
+        etUsername.setText("0004500000011507");
+        etPassword.setText("0004500000011507");
+
         /** textview tvForgotPassword click listener **/
         tvForgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
